@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de Series de TV</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  />
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4 text-center">Listado de Series</h1>
+
+    <div class="row">
+      <!-- Columna izquierda: tabla -->
+      <div class="col-md-8">
+        <table class="table table-striped" id="series-table">
+          <thead class="thead-dark">
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Canal</th>
+              <th>Temporadas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Contenido generado por JS -->
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Columna derecha: detalle (card) -->
+      <div class="col-md-4" id="serie-detail">
+        <!-- Card generado por JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Script principal -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
